@@ -1,0 +1,88 @@
+nav{
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+}
+nav span{
+    color: rgb(197, 15, 15);
+    font-weight: bold;
+}
+.navbar-brand{
+    background-color: rgb(232, 232, 232);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+nav a{
+    margin: 5px;
+    color: rgb(46, 46, 46);
+}
+nav a:hover{
+    text-decoration: none;
+}
+#call{
+    background-color: rgb(26, 148, 201);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+}
+#dishes img{
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.c-dishes-card{
+    padding-bottom: 10px;
+    background:linear-gradient(to right, rgb(49, 127, 200) 50%,rgb(240, 240, 240) 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: 1s;
+}
+.c-dishes-card:hover{
+    background-position: left;
+    color: white;
+}
+.c-get-in-touch{
+    transition: .5s;
+}
+.c-get-in-touch:hover{
+    transform: translate(5px,0px);
+}
+#sec-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(banner1.jpg);
+    color: white;
+}
+#sec-1>div>p{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+#gallery{
+    text-align: center;
+}
+#gallery img{
+    height: 100px;
+    margin: 10px;
+    transition: .5s;
+}
+#gallery img:hover{
+    transform: scale(1.1);
+}
+footer a{
+    font-size: 20px;
+    color: whitesmoke;
+}
+footer a:hover{
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+}
+footer p{
+    color: white;
+    padding: 10px;
+}
+#top-button{
+    color: rgb(21, 105, 21);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
